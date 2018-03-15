@@ -1,14 +1,10 @@
 import React from 'react';
 
-const NavbarItems = () => (
-  <nav>
-    <a>Inicio</a>
+const NavbarItems = ({item}) => (
+  <span>
+    <a>{item}</a>
     {' '}
-    <a>Nosotros</a>
-    {' '}
-    <a>Misión</a>
-    {' '}
-  </nav>
+  </span>
 )
 
 export default NavbarItems;
