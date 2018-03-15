@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './navbar';
 
-const arrayString = ['Inicio', 'Nosotros', 'Misión'];
+const arrayString = ['Inicio', 'Nosotros', 'Misión', 'Contáctanos'];
 
 const Header = () => (
   <header>
